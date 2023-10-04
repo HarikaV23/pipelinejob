@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                sh 'echo "helo world"'
+                 git branch: 'main', url: 'https://github.com/nocturnaldevops/Project1.git'
             }
         }
     }
